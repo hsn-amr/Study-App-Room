@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_topic"
+        android:title="Add New Topic"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_add_24"/>
+    <item
+        android:id="@+id/android_review"
+        android:title="Android Review"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/main_page"
+        android:title="Main Page"
+        app:showAsAction="never"/>
+</menu>
